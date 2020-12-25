@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter for Cats</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Meower - Twitter for Cats 😸</h1>
+    </header>
+    <main>
+      <form class="mew-form">
+        <label for="name">Name</label>
+        <input class="u-full-width" type="text" id="name" name="name" />
+        <label for="content">Mew</label>
+        <textarea
+          class="u-full-width"
+          type="text"
+          id="content"
+          name="content"
+        ></textarea>
+        <button class="button-primary">Send Your Mew 😸</button>
+      </form>
+      <div class="loading">
+        <img src="loading.gif" alt="" />
+      </div>
+      <div class="mews"></div>
+    </main>
+    <script src="client.js"></script>
+  </body>
+</html>
